@@ -1,0 +1,56 @@
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+img {
+  width: 300px;
+  height: 250px;
+
+}
+
+
+h1  {
+  text-align: left;
+  font-family: fantasy;
+  padding-top: 15px;
+}
+
+h3  {
+  font-weight: bolder;
+  color: orangered;
+  padding-left: 15px;
+}
+.jumbotron {
+  padding: 20px;
+  margin-left: 12px;
+  width: 700px;
+  height: inherit;
+}
+
+.price  {
+  font-weight: bolder;
+}
+
+.add-price {
+  font-style: italic;
+  font-size: 12px;
+}
+.btn {
+  margin: 12px;
+  padding-left: 20px;
+}
+
+#output {
+  display: none;
+}
